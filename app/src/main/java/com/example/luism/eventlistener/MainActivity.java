@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 new Button.OnClickListener(){
                    public void onClick(View v){
                        TextView textView2 = (TextView)findViewById(R.id.textView2);
-                       textView2.setText("Hello I made it.");
+                       textView2.setText(" I made it.");
                    }
                 }
         );
