@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EventListener</string>
+    <string name="enter_button_one">Enter</string>
+    <string name="textview_one">TextView</string>
+    <string name="enter_button_two">Enter 2</string>
+    <string name="textview_two">TextView</string>
 </resources>
