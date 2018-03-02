@@ -17,6 +17,27 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button btn = (Button)findViewById(R.id.btn);
+
+        //find button and assign to variable
+        Button btn2 = (Button)findViewById(R.id.btn2);
+
+
+
+        //button on click two code
+        btn2.setOnClickListener(
+                new Button.OnClickListener(){
+                   public void onClick(View v){
+                       TextView textView2 = (TextView)findViewById(R.id.textView2);
+                       textView2.setText("Hello I made it.");
+                   }
+                }
+        );
+
+
+
+
+
+
         btn.setOnClickListener(
                 new Button.OnClickListener(){
                     public void onClick(View v){
